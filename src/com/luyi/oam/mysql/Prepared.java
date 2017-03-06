@@ -14,6 +14,7 @@ public class Prepared {
         String url = "jdbc:mysql://localhost:3336/testdb";
         String user = "testuser";
         String password = "test623";
+        
         try {
             String author = "Trygve Gulbranssen";
             con = DriverManager.getConnection(url, user, password);
